@@ -1,0 +1,20 @@
+h1.title {
+text-align: center;
+color: aqua;   
+}
+
+#About_me {
+     text-align: center;
+     color: aquamarine;
+     
+}
+
+/* margin auto makes the image centered*/
+#portrait.img img {
+    display: block;
+    margin: auto;
+    max-width: 100px ;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
