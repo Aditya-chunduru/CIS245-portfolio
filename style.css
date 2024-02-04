@@ -1,11 +1,11 @@
 h1.title {
 text-align: center;
-color: aqua;   
+color: var(--bs-blue);  
 }
 
 #About_me {
      text-align: center;
-     color: aquamarine;
+     color:var(--bs-red);
      
 }
 
@@ -17,4 +17,9 @@ color: aqua;
     border-radius: 100px;
     width: 100px;
     height: 100px;
+    
+}
+
+.title::first-letter {
+color: var(--bs-black);
 }
