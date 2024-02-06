@@ -20,6 +20,27 @@ color: var(--bs-blue);
     
 }
 
-.title::first-letter {
-color: var(--bs-black);
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100px;
+    background-color: aqua;
+}
+
+
+a.github {
+background-color: aqua;
+
+}
+
+a.github:visited {
+    background-color: green;
+    color: var(--bs-yellow);
+}
+
+h2.about {
+    text-align: center;
 }
