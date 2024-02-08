@@ -44,3 +44,23 @@ a.github:visited {
 h2.about {
     text-align: center;
 }
+
+button#reveal {
+    background-color: green;
+    
+}
+
+
+/*button#reveal:active {
+    color: yellow;
+}*/
+
+
+button#reveal:hover {
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    width: 100px;
+    height: 100px;
+
+}
