@@ -20,7 +20,7 @@ color: var(--bs-blue);
     
 }
 
-ul.navbar {
+/*ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ ul.navbar {
     top: 0;
     width: 100px;
     background-color: aqua;
-}
+}*/
 
 
 a.github {
@@ -63,4 +63,17 @@ button#reveal:hover {
     width: 100px;
     height: 100px;
 
+}
+
+.github {
+    color: aqua;
+}
+
+h2.choice#second{
+    color: rgb(138, 160, 12);
+    
+}
+/* inline block moves your object down a page */
+mark {
+    display: inline-block;
 }
