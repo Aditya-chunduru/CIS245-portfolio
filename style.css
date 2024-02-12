@@ -1,6 +1,5 @@
 h1.title {
 text-align: center;
-color: var(--bs-blue);  
 }
 
 #About_me {
@@ -31,12 +30,13 @@ color: var(--bs-blue);
 }*/
 
 
-a.github {
+button.github {
 background-color: aqua;
+color: black;
 
 }
 
-a.github:visited {
+button.github:hover {
     background-color: green;
     color: var(--bs-yellow);
 }
@@ -51,9 +51,9 @@ button#reveal {
 }
 
 
-/*button#reveal:active {
+button#reveal:active {
     color: yellow;
-}*/
+}
 
 
 button#reveal:hover {
@@ -77,3 +77,15 @@ h2.choice#second{
 mark {
     display: inline-block;
 }
+/*Tag and class identified for specificity*/
+button.who{
+    background-color: aqua;
+    color: blueviolet;
+
+}
+
+button.who:hover {
+    background-color: rgb(51, 233, 51);
+}
+
+
