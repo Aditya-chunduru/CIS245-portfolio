@@ -89,3 +89,14 @@ button.who:hover {
 }
 
 
+#hobbies {
+    color: var(--bs-orange);
+}
+
+h5#subheading {
+    background-color: brown;
+}
+
+.button#lucky_7 {
+    color: var(--bs-purple);
+}
