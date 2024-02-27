@@ -60,8 +60,6 @@ button#reveal:hover {
     
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: red;
-    width: 100px;
-    height: 100px;
 
 }
 
@@ -99,4 +97,19 @@ h5#subheading {
 
 .button#lucky_7 {
     color: var(--bs-purple);
+}
+
+
+#lucky_7:hover {
+background-color: blue;
+
+}
+
+
+#in {
+    background-color: brown;
+}
+
+#in:hover {
+    background-color: blue;
 }

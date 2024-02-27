@@ -20,3 +20,6 @@ function colorchangeback() {
 function bestpart() {
    document.getElementById("solve").innerHTML = "The satisfaction of solving a certain problem that you were stuck on for a few days that you were frustrated about. The cycle goes on but it is so satisfying when you finally do it. "
 }
+function linkedin() { 
+   document.getElementById("")
+}
