@@ -23,3 +23,4 @@ function bestpart() {
 function linkedin() { 
    document.getElementById("")
 }
+
