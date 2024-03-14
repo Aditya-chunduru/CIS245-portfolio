@@ -112,4 +112,16 @@ background-color: blue;
 
 #in:hover {
     background-color: blue;
+} 
+
+#first_collapsible {
+    overflow: hidden ;
+    transition: max-height 0.9s ease-out;
+    max-height: 0;
+}
+
+#Aditya {
+    overflow: hidden;
+    transition: max-height 0.9s ease;
+    max-height: 0;
 }
