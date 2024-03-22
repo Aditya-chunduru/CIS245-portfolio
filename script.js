@@ -10,9 +10,7 @@ function colorchangeback() {
    document.getElementById("goals").style.color='black'
 }
 
-function bestpart() {
-   document.getElementById("solve").innerHTML = "The satisfaction of solving a certain problem that you were stuck on for a few days that you were frustrated about. The cycle goes on but it is so satisfying when you finally do it. "
-}
+
 function linkedin() { 
    document.getElementById("")
 }
@@ -37,3 +35,21 @@ function details() {
       second_text.style.maxHeight = second_text.scrollHeight + "px"
    }
    }
+
+function bestpart() {
+
+   var second_text = document.getElementById("part")
+   if (second_text.style.maxHeight) {
+         second_text.style.maxHeight = null; 
+   
+   } else {
+      second_text.style.maxHeight = second_text.scrollHeight + "px"
+   }
+   }
+
+
+function more() { 
+   var i, tabcontent, tablinks; 
+   tabcontent = document.getElementById("tab 1")
+   
+}
