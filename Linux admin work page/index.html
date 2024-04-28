@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CIS245-portfolio Linux admin work</title>
+
+    <div class="personal-image">
+
+  
+    </div>
+  
+
+
+    <!--CSS frameworks and regular links--->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+  
+    <!--regular html and css links-->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+
+  <body class="visuals" id="appeal">
+
+    <a href="#setup"><h2>SCP</h2></a>
+<a href="#lab"><h2>grep</h2></a>
+<a href="#data"><h2>Sed</h2></a>
+<a href="#FS"><h2>Awk</h2></a>
+<a href="#lolcat"><h2>Misc</h2></a>
+  <h1>Notable skills and accomplishments.</h1>
+  
+
+  <div>
+    <h2 class="SCP" id="setup">Using SCP to transfer files</h2>
+<p1 class="transfer" id="ip"> In my linux admin class, I had to not only show how to install a server and write 
+  documentation about it, I also had to do this thing called SCP to share files between 2 virtualized linux servers. 
+As such, VirtualBox has been the basis for this whole class. Not to mention, I never knew you could do this with linux. </p1>
+
+
+<img src="Picture1.png" id="SCP">
+  </div>
+
+
+  
+  
+  
+  
+  
+  <div>
+    <h2 class="grep" id="lab">Using grep to do different things</h2>
+    <p1 class="greppable">One of the things i also did as part of my class is using grep to do different things, one of which is printing lines where people only live in certain states. 
+      Grep is a type of linux tool that I would like to practice with more. 
+    </p1>
+
+<img src="Picture2.png">
+  </div>
+
+
+<div> 
+  <h2 class="sed" id="data">Using Sed to perform different stuff </h2>
+
+<p1 class="blessSED">I also used sed to perform different things, I'm not exactly sure or aware of the 
+  discrepancies that exist with sed. 
+</p1>
+
+<img src="sed.png">
+</div>
+
+
+
+<div>
+<h2 class="AWKward" id="FS">Using awk to also do different stuff</h2>
+
+<p1>This is where i start to actually notice the disrepancies more between the other 2 power tools. 
+  Awk is where you learn about the existance of field separators which by default are separated by spaces. 
+  This means that when you don't specify a field separator, awk will assume that any spaces or tabs are field separators. 
+
+</p1>
+</div>
+
+
+<div>
+<p2 class="paragraph_2">For example, in the screenshot you see above, if you tell awk to print $1 with the AwkLab.data file, 
+  you only get the first names for example in the screenshot above that output would just be Lizzie, Nancy, Jo and so on. 
+</p2>
+
+<p3 class="paragraph_3">Now if you change the field separator to colon or something else and the screenshot with "sir" is circled looking something like this,
+  and then tell awk to print $1, you would get both first and last names in the output 
+</p3>
+
+<p4>For example, here is a screenshot showing an output leaving the field separator as is.</p4>
+<img src="Awklab default fs.png">
+
+<p5 class="hidden">Here is an example of an output with a modified FS</p5>
+<img src="colon fs .png">
+</div>
+
+
+<div>
+<h2 class="cowsay" id="lolcat">Some other interesting things i found with working with Linux</h2>
+
+
+<h5>As part of this class, I had to use 2 different virtualized linux servers</h5>
+
+<p1>I noticed some more disrepancies, mainly when it came to how you install certain packages on your server. 
+  I find it very interesting how on ubuntu, your arguement is "sudo apt-get install cowsay" for example.
+  On centOS on another hand, it's "sudo yum install". Basically, my point is that different virtual linux servers have certain discrepancies and what you see on the two screenshots are good examples of those. 
+</p1>
+
+
+<h2>In case of any questions,apt-get means that the server is Ubuntu and yum install shows that the server is CentOS</h2>
+<p1>As such, this is how you would know which server is which. </p1>
+<img src="Ubuntu example.png">
+<img src="tmux centOS.png">
+</div>
+  </body>
