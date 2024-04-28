@@ -21,6 +21,18 @@ text-align: center;
 }
 
 
+:root {
+    --bs-yellow: #ece907;
+    --bs-purple: #0812a1;
+}
+
+
+
+
+
+.personal-image {
+    background: linear-gradient(to bottom, var(--bs-yellow), var(--bs-blue));
+}
 
 button.github {
 background-color: aqua;
@@ -60,7 +72,7 @@ button#reveal:hover {
 }
 
 h2.choice#second{
-    color: rgb(138, 160, 12);
+    color: rgb(220, 255, 24);
     
 }
 /* inline block moves your object down a page */
