@@ -1,0 +1,101 @@
+.visuals#coherence {
+    
+    background: linear-gradient(to bottom, var(--bs-purple), var(--bs-indigo));
+
+}
+
+
+
+.circle:hover {
+
+    color: var(--bs-white);
+}
+
+.gamer {
+    margin: 100px;
+    background-color: var(--bs-white);
+}
+
+
+.celeste {
+    margin: 100px;
+}
+
+.celeste:hover {
+    background-color: aquamarine;
+}
+
+.mental#farewell {
+    font-size: larger;
+}
+
+#farewell:hover {
+    background-color: aqua;
+}
+
+.network {
+    font-size: larger;
+}
+.network:hover {
+    background-color: var(--bs-white);
+}
+.skyline:hover {
+background-color: var(--bs-red);
+}
+
+.wavedash {
+    width: 390px;
+    height: 300px;
+    margin-right: 300px;
+
+}
+
+.youtube {
+    color: var(--bs-white);
+}
+
+.youtube:hover {
+    color: var(--bs-yellow);
+}
+.youtube:visited {
+    color: var(--bs-red);
+}
+.info:hover {
+background-color: var(--bs-white);
+}
+
+.celeste#favorites {
+    color: var(--bs-red);
+}
+
+.JRPG {
+    color: var(--bs-red);
+}
+
+.thracia {
+    background-color: var(--bs-white);
+}
+
+.ephraim {
+    font-size: xx-large;
+    color: var(--bs-white);
+}
+
+.magvel {
+    font-size: xx-large;
+    color: var(--bs-red);
+}
+
+.magvel#final-points {
+    font-size: xx-large;
+    color: var(--bs-yellow);
+}
+
+.video#jrpgs {
+    font-size: xx-large;
+    color: var(--bs-white);
+}
+
+.video#jrpgs:visited {
+    color: var(--bs-green);
+}
