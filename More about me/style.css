@@ -58,7 +58,7 @@ background-color: var(--bs-red);
     color: var(--bs-yellow);
 }
 .youtube:visited {
-    color: var(--bs-red);
+    color: var(--bs-green);
 }
 .info:hover {
 background-color: var(--bs-white);
@@ -83,7 +83,7 @@ background-color: var(--bs-white);
 
 .magvel {
     font-size: xx-large;
-    color: var(--bs-red);
+    color: var(--bs-green);
 }
 
 .magvel#final-points {
@@ -94,8 +94,32 @@ background-color: var(--bs-white);
 .video#jrpgs {
     font-size: xx-large;
     color: var(--bs-white);
+    margin: 100px;
 }
 
 .video#jrpgs:visited {
     color: var(--bs-green);
+}
+
+
+.persona {
+    color: var(--bs-red);
+}
+
+.royal {
+    font-size: xx-large;
+    color: var(--bs-yellow);
+    margin: 100px;
+
+}
+
+
+.kasumi {
+    margin: 100px;
+}
+
+
+.royal#arcana {
+color: var(--bs-white);
+font-size: xx-large;
 }
