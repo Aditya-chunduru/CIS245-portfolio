@@ -31,7 +31,7 @@ text-align: center;
 
 
 .personal-image {
-    background: linear-gradient(to bottom, var(--bs-yellow), var(--bs-blue));
+    background: var(--bs-red);
 }
 
 button.github {
