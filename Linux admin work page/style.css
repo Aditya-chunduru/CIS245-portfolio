@@ -7,17 +7,11 @@ margin: 100px;
    color: var(--bs-blue);
 }
 
-.transfer#ip {
-   color: var(--bs-blue);
-}
+
 
 
 .grep#lab {
    margin: 100px;
-}
-
-.greppable {
-   color: var(--bs-green);
 }
 
 
@@ -29,20 +23,11 @@ margin: 100px;
 }
 
 .visuals {
-   background: linear-gradient(to bottom, var(--bs-orange), var(--bs-teal));
+   background: var(--bs-green);
 }
 
 .AWKward {
    margin: 100px;
-}
-.paragraph_2 {
-   color: var(--bs-blue);
-   
-}
-
-.paragraph_3 {
-   color: var(--bs-indigo);
-   margin-top: 20px;
 }
 
 .hidden:hover {
