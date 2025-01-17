@@ -1,15 +1,3 @@
-function buttonreveal() {
-   document.getElementById("About_me").innerHTML = "Hello, my name is Aditya chunduru"
-}
-
-
-function colorchange() {
-   document.getElementById("goals").style.color='red'
-}
-function colorchangeback() {
-   document.getElementById("goals").style.color='black'
-}
-
 
 
 
